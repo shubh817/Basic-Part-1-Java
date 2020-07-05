@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main
+{
+	  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter 1st number");
+    int num1 = sc.nextInt();   //1st number
+    System.out.println("Enter 2nd number");
+    int num2 = sc.nextInt();    //2nd number
+    int div = num1/num2;        //division
+    System.out.println("Division of two numbers is - "+div);   //output
+  }
+}
