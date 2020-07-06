@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+  public static void main(String[] args) {
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter the length:");
+    float length = sc.nextFloat();
+    System.out.println("Enter the width:");
+    float width = sc.nextFloat();
+    
+    double area = length * width;
+    double perimeter = 2*(width+length);
+    System.out.println("Area of rectangle is  = " + area);
+    System.out.println("Perimeter of rectangle is = " + perimeter);
+	
+  }
+}
