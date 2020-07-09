@@ -1,0 +1,8 @@
+import java.util.*;
+public class Main
+{
+  public static void main(String[] args) {
+  System.out.println("/students/1.txt(file location) : " + new File("abc.txt").length() + " bytes");
+  System.out.println("/students/2.txt(file location) : " + new File("test.txt").length() + " bytes");
+	}
+}
