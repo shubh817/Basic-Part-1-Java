@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the starting value: ");
+	int a=sc.nextInt();
+	System.out.println("Enter the ending value: ");
+	int b=sc.nextInt();
+	
+	System.out.println("Enter the number for checking: ");
+	int c=sc.nextInt();
+	
+	System.out.println("Required values are: ");
+	for(int i=a;i<b;i++)
+	{
+	    if(i%c==0)
+	    {
+	        System.out.println(i);
+	    }
+	}
+	}
+}
