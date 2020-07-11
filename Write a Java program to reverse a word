@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Input a Sentence: ");
+    String str = sc.next();
+    String str2="";
+    System.out.println("String in Reverse Order: ");
+    for(int i=str.length()-1;i>=0;i--)
+    {
+        str2=str2+str.charAt(i);
+    }
+    System.out.print(str2);
+    }
+}
