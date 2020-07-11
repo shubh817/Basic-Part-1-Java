@@ -1,0 +1,17 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter seconds: ");
+	int seconds=sc.nextInt();
+	
+	int t1=seconds%60; //seconds
+	int t3=seconds/60; 
+	int t2=t3%60;   // minutes
+  t3=t3/60;       //hours
+	
+	System.out.print( t3 + ":" + t2 + ":" + t1);//print the time in required format
+	System.out.print("\n");
+	}
+}
