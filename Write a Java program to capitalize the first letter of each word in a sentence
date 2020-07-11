@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Input a Sentence: ");
+    String str = sc.nextLine();
+    String str2 = "";                           //empty string
+    Scanner str1 = new Scanner(str);                        
+    while(str1.hasNext()) {                                 //loop for checking the values at different indexes
+    String word = str1.next(); 
+    str2 += Character.toUpperCase(word.charAt(0)) + word.substring(1) + " ";  //append the values in new string 
+    }
+    System.out.println(str2.trim()); 
+    }
+}
