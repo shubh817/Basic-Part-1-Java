@@ -1,0 +1,18 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the first number : ");
+        int num1 = sc.nextInt();  
+        System.out.print("Enter the second number: ");
+        int num2 = sc.nextInt(); 
+        
+        int div = num1/num2;
+        int result = num1-(div*num2);
+        System.out.print("Required result: ");
+        System.out.println(result);
+    }
+	
+}
