@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter first number: ");
+	int num1 = sc.nextInt();
+	System.out.println("Enter second number: ");
+	int num2 = sc.nextInt();
+	System.out.println("Enter third number: ");
+	int num3 = sc.nextInt();
+	System.out.println(Math.abs(num1-num2)>=40 || Math.abs(num2-num3)>=40 || Math.abs(num3-num1)>=40); 
+	}
+}
