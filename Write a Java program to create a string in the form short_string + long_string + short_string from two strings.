@@ -1,0 +1,28 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the first word: ");
+	String str1 = sc.next();
+	System.out.println("Enter the second word: ");
+	String str2 = sc.next();
+	
+	int l1=str1.length();                                  //length of first string
+	int l2=str2.length();                                  //length of second string
+	String small="";                                       
+	String big="";
+	if(l1<l2)
+	{
+	    small=str1;                                      
+	    big=str2;
+	}
+	else
+	{
+	    small=str2;
+	    big=str1;
+	}
+	System.out.println(small+big+small);
+	}
+}
+
