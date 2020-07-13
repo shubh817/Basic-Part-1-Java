@@ -1,0 +1,15 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the first word: ");
+	String str1 = sc.next();
+	System.out.println("Enter the second word: ");
+	String str2 = sc.next();
+	
+	System.out.print(str1.substring(1,str1.length()));
+	System.out.print(str2.substring(1,str2.length()));
+	
+	}
+}
