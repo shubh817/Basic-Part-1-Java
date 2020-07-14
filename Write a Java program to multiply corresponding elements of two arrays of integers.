@@ -1,0 +1,33 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the size of array: ");
+	int n = sc.nextInt();
+	
+	int ar[]=new int[n];
+	System.out.println("Enter the elements of the 1st array: ");	
+	for(int i=0;i<n;i++)
+	{
+	    ar[i]=sc.nextInt();
+	}
+	int br[]=new int[n];
+    System.out.println("Enter the elements of the 2nd array: ");	
+    for(int i=0;i<n;i++)
+	{
+	    br[i]=sc.nextInt();
+	}
+	int cr[]=new int[n];
+	for(int i=0;i<n;i++)
+	{
+	    cr[i]=ar[i]*br[i];
+	}
+	System.out.println("New Array formed: ");
+	for(int i=0;i<n;i++)
+	{
+	    System.out.println(cr[i]);
+	}
+	
+	}
+}
